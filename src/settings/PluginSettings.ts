@@ -14,10 +14,10 @@ export interface EmotionPickerSettings {
 }
 
 export class DefaultSettings implements EmotionPickerSettings {
-	modalHeaderText = "What do you feel?";
+	modalHeaderText = "Emotion or Attitude?";
 	useCommaInSeparator = false;
 	addAsLink = false;
-	addAsTag = false;
+	addAsTag = true;
 	capitalize = false;
 	emotions = DEFAULT_EMOTIONS;
 	locale: "en";
